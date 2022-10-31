@@ -2,9 +2,9 @@
   "name": "gateway-admin",
   "version": "0.27.0",
   "scripts": {
-    "dev": "bash -c \"source ./scripts/set-env.sh && next\"",
-    "build": "bash -c \"source ./scripts/set-env.sh && next build\"",
-    "start": "bash -c \"source ./scripts/set-env.sh && next start\"",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "export": "next export",
     "postinstall": "husky install",
     "increment-build": "bash scripts/increment-build.sh && git add -A",
